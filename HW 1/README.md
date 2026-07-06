@@ -1,4 +1,4 @@
-# HW1 — Deep Learning Assignment: PCA and Restricted Boltzmann Machine
+# HW1 — PCA and Restricted Boltzmann Machine
 
 ## Overview
 
