@@ -245,18 +245,6 @@ For CIFAR-10, patch size 4 is a good balance because the images are small. Large
 
 ---
 
-# Figure Files
-
-Save the figures in the `figures` folder using these names:
-
-| Figure | File Name |
-|---|---|
-| Transformer training/testing metrics | `figures/transformer_training_testing_metrics.png` |
-| ViT training loss over 11 epochs | `figures/vit_training_loss_11_epochs.png` |
-| ViT training loss over 20 epochs | `figures/vit_training_loss_20_epochs.png` |
-
----
-
 # Key Takeaways
 
 <div align="center">

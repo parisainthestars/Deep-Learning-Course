@@ -1,6 +1,5 @@
 # HW1 — PCA and Restricted Boltzmann Machine
 
-## Overview
 
 This homework contains two main parts:
 

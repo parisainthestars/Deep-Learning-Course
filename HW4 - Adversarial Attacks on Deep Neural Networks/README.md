@@ -480,16 +480,6 @@ However, many defenses only work against specific attacks and may fail against s
 
 ---
 
-# Figure Files
-
-The figures used in this README should be saved in the `figures` folder with these names:
-
-| Figure | File Name |
-|---|---|
-| Panda FGSM adversarial example | `figures/adversarial_panda_fgsm_example.png` |
-| Semantic segmentation adversarial example | `figures/adversarial_segmentation_attack_example.png` |
-
----
 
 # Key Takeaways
 

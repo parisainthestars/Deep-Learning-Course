@@ -330,20 +330,6 @@ The test RMSE is larger than the training RMSE, which is expected because the te
 
 ---
 
-# Figure Files
-
-Save the output images in the `figures` folder using these names:
-
-| Figure | File Name |
-|---|---|
-| RNN train/validation/test prediction with normalized RMSE | `figures/rnn_train_val_test_predictions_normalized.png` |
-| RNN test true vs predicted values | `figures/rnn_test_true_vs_predicted.png` |
-| Training and validation loss curve | `figures/rnn_training_validation_loss.png` |
-| RNN and GRU prediction comparison | `figures/rnn_gru_prediction_comparison.png` |
-| RNN train/validation/test prediction on original scale | `figures/rnn_train_val_test_predictions_original_scale.png` |
-
----
-
 # Analysis
 
 The airline passenger dataset has both trend and seasonality. This means that the number of passengers generally increases over time, but also follows repeating seasonal patterns.

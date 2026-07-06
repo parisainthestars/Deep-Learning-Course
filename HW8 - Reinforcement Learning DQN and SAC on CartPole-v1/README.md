@@ -255,20 +255,6 @@ DQN learns what action has the highest value, while SAC directly learns a stocha
 
 ---
 
-## Figure Files
-
-Save the figures in the `figures` folder using these names:
-
-| Figure | File Name |
-|---|---|
-| SAC average return with mean and std | `figures/sac_average_return_mean_std.png` |
-| RL algorithm taxonomy | `figures/rl_algorithm_taxonomy.png` |
-| DQN performance on CartPole-v1 | `figures/dqn_cartpole_performance.png` |
-| SAC mean reward with 95% confidence interval | `figures/sac_mean_ci_5_runs.png` |
-| SAC single-run performance | `figures/sac_cartpole_single_run_performance.png` |
-
----
-
 ## Conclusion
 
 This homework implemented and compared DQN and SAC on CartPole-v1. DQN was implemented as a value-based model-free method using a Q-network, replay buffer, target network, and epsilon-greedy exploration. SAC was implemented as an off-policy actor-critic algorithm with entropy regularization, stochastic policy learning, Q-networks, value networks, and replay buffer training.

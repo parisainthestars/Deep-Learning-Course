@@ -622,18 +622,6 @@ In this experiment, SGD with momentum achieved the best final test accuracy. Ada
 
 ---
 
-# Figure Files
-
-The figures used in this README should be saved in the `figures` folder with these names:
-
-| Figure | File Name |
-|---|---|
-| CNN filter and ReLU visualization | `figures/cnn_filter_relu_visualization.png` |
-| EMNIST confusion matrix | `figures/emnist_confusion_matrix.png` |
-| EMNIST optimizer loss curves | `figures/emnist_optimizer_loss_curves.png` |
-
----
-
 # Conclusion
 
 This homework implemented and analyzed CNN-based image classifiers on EMNIST and FashionMNIST.
