@@ -84,8 +84,7 @@ where:
 The graph convolutional operator introduced by Kipf and Welling is:
 
 $$
-\mathbf{X}^{(k)}
-=
+\mathbf{X}^{(k)}=
 \hat{\mathbf{D}}^{-1/2}
 \hat{\mathbf{A}}
 \hat{\mathbf{D}}^{-1/2}
@@ -102,8 +101,7 @@ where:
 Equivalently, for each node:
 
 $$
-x_i^{(k)}
-=
+x_i^{(k)}=
 \sum_{j \in \mathcal{N}(i) \cup \{i\}}
 \frac{1}{\sqrt{\deg(i)}\sqrt{\deg(j)}}
 \left(
@@ -138,8 +136,7 @@ GraphSAGE is an inductive GNN model that learns node embeddings by aggregating n
 The update rule is:
 
 $$
-h_i^{(k)}
-=
+h_i^{(k)}=
 \mathbf{W}
 \cdot
 \left[
@@ -232,19 +229,6 @@ GraphSAGE was much faster than GCN in this experiment, with all GraphSAGE varian
 | Best GraphSAGE aggregator | Mean aggregation performed best |
 
 </div>
-
----
-
-## Figure Files
-
-Save the figures in the `figures` folder using these names:
-
-| Figure | File Name |
-|---|---|
-| Factor graph message passing | `figures/factor_graph_message_passing.png` |
-| GNN gather-scatter message passing | `figures/gnn_message_passing_gather_scatter.png` |
-| GraphSAGE embedding algorithm | `figures/graphsage_embedding_algorithm.png` |
-| Simple graph data example | `figures/simple_graph_data_example.png` |
 
 ---
 
